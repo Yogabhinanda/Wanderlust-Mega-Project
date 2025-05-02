@@ -49,7 +49,7 @@ module "eks" {
       tags = {
         Name = "tws-demo-ng"
         Environment = "dev"
-        ExtraTag = "e-commerce-app"
+        ExtraTag = "app"
       }
     }
   }
